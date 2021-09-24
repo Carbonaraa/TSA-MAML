@@ -32,6 +32,23 @@ scikit-learn
 
 tqdm
 
+Put data folder struction like this
+```
+root
+│   README.md
+│   train.py    
+│
+└───data
+│   │   cifar-fs
+│   │   tiered-imagenet
+|   |   miniimagenet
+│   │   ...
+│   
+└───logs
+    │   maml_cifar5w1s
+    │   tsa_maml_cifar5w1s
+    |   ...
+```
 
 
 ## Quick test via loading trained model
